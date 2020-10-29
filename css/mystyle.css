@@ -1,0 +1,45 @@
+h1
+{
+  border-bottom: solid 2px blue;
+  color: 111;
+  padding-bottom: 1%;
+  margin:2% auto;
+  font-size: 300%;
+}
+h2
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #aaa;
+  color: 111;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  font-size: 200%;
+}
+.lin
+{
+    border-bottom:solid #27006597;
+}
+
+.dis
+{
+  padding-right:20px;
+}
+.con{
+  background-color: black;
+  width:100%;
+}
+
+
+/* about us*/
+.author img
+{
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+.ab-con{
+  font-size: 120%;
+  text-transform: capitalize;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,25 @@
+.pcontainer
+{
+  display: flex;
+  background-color: 	#DDA0DD;
+  height: 100%;
+}
+
+h1
+{
+  color:black;
+  margin-left: auto;
+
+}
+.fontblock
+{
+  width: 100%;
+  height: auto;
+}
+.val
+{
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #483D8B;
+}

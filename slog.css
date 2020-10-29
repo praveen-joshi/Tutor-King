@@ -1,0 +1,30 @@
+.nav
+{
+   overflow:hidden;
+   background-color:black;
+   width :101.2%; 
+  
+}
+.nav a
+{
+ text-decoration:none; 
+ float:right;
+ display:block;
+ color:#f2f2f2;
+ text-align:center;
+ padding: 3px 10px; 
+}
+
+.nav a.a1:hover{
+ background-color:yellow;
+ color:black;
+}
+body {
+	background-image:url("svvv.jpg") ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+    
+}

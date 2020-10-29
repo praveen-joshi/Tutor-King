@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/adminstyle.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+  <body>
+    <nav>
+      <img src="images/log.png" height=60px width=70px alt="not found">
+      <ul class='r'>
+
+        <li><a href="#tutor" class="adminelement">tutor</a></li>
+        <li><a href="#student">Student</a></li>
+        <li>
+          <a href="index.html">Logout</a>
+        </li>
+        <li>
+          <a href="#aboutus">About us</a>
+        </li>
+      </ul>
+
+
+    </nav>
+
+
+    <section class="tutor" id="tutor" >
+      <div class="row">
+        <h1 class="head">Tutors</h1>
+      </div>
+    <div class="row ">
+      <div class="col adbox animate__animated animate__bounce">
+        <a href=searchtutor.php>
+        <ion-icon name="person-outline"></ion-icon>
+        <span class="msg ">View Tutor</span>
+        </a>
+
+      </div>
+      <div class="col adbox animate__animated animate__bounce">
+        <a href=addtutor.php>
+        <ion-icon name="person-outline"></ion-icon>
+        <span class="msg">Add Tutor</span>
+      </a>
+      </div>
+      <div class="col adbox animate__animated animate__bounce">
+        <a href="deletetutor.php" >
+          <ion-icon name="person-outline"></ion-icon>
+          <span class="msg">  Delete Tutor</span>
+        </a>
+      </div>
+      <div class="col adbox animate__animated animate__bounce">
+        <a href=edittutor.php>
+        <ion-icon name="person-outline"></ion-icon>
+        <span class="msg">  Edit Tutor </span>
+       </a>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="student" id="student">
+      <div class="row">
+        <h1 class="head">Students</h1>
+      </div>
+    <div class="row ">
+      <div class="col adbox animate__animated animate__bounce">
+        <a href=searchstudent.php>
+          <ion-icon name="person-outline"></ion-icon>
+          <span class="msg">View Students</span>
+        </a>
+      </div>
+      <div class="col adbox">
+        <a href=add.php>
+          <ion-icon name="person-outline"></ion-icon>
+          <span class="msg">Add Students</span>
+        </a>
+      </div>
+      <div class="col adbox">
+        <a href="deletestudent.php">
+          <ion-icon name="person-outline"></ion-icon>
+          <span class="msg"> Delete Students </span>
+        </a>
+      </div>
+      <div class="col adbox">
+        <a href=editstudent.php>
+          <ion-icon name="person-outline"></ion-icon>
+          <span class="msg">Edit Students  </span>
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <section class="aboutus" id="aboutus">
+      <div class="row">
+        <h1>Tutor King</h1>
+
+
+        <p class="ab-con">All the students can learn and succeed , but not in
+          the same way and not in the same day. So every student
+          have right to learn from the place that suits his/her comfort zone</p>
+
+        <p class="ab-con">We are devoted to give best of us to increase user experience <p>
+
+
+    </section>
+
+
+
+
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

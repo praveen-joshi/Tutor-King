@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/adminstyle.css">
+</head>
+  <body>
+    <nav>
+      <img src="images/log.png" height=60px width=70px alt="not found">
+      <ul class='r'>
+
+        <li><a href="#tutor" class="adminelement">tutor</a></li>
+        <li><a href="#student">Student</a></li>
+        <li>
+          <a href="index.html">Logout</a>
+        </li>
+        <li>
+          <a href="#">About us</a>
+        </li>
+      </ul>
+
+
+    </nav>
+
+
+    <section class="tutor">
+      <div class="row">
+        <h1 class="head">Tutors</h1>
+      </div>
+    <div class="row ">
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=searchtutor.php class=msg>View Tutor</a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=addtutor.php class=msg>Add Tutor</a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href="deletetutor.php" class=msg>  Delete Tutor  </a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=edittutor.php class="msg">Edit Tutor  </a>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="tutor">
+      <div class="row">
+        <h1 class="head">Students</h1>
+      </div>
+    <div class="row ">
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=searchstudent.php class=msg>View Students</a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=add.php class=msg>Add Students</a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href="deletestudent.php" class=msg>  Delete Students </a>
+      </div>
+      <div class="col adbox">
+        <ion-icon name="person-outline"></ion-icon>
+        <a href=editstudent.php class="msg">Edit Students  </a>
+      </div>
+    </div>
+    </section>
+
+
+
+
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>
